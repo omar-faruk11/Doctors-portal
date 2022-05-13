@@ -5,6 +5,8 @@ import Exceptional from './HomeComponents/Exceptional';
 import Info from './HomeComponents/Info';
 import Services from './HomeComponents/Services';
 import Testimonial from './HomeComponents/Testimonial';
+import Contact from './HomeComponents/Contact';
+import Footer from '../../Sheard/Footer/Footer';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <Exceptional/>
             <MakeAppointment/>
             <Testimonial/>
+            <Contact/>
+            <Footer/>
         </>
     );
 };
