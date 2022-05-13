@@ -6,7 +6,7 @@ import InfoCard from './InfoCard';
 
 const Info = () => {
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-5'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:mx-5 md:grid-cols-3 gap-5'>
             <InfoCard 
             img={clock}
             header={'Opening Hours'}
